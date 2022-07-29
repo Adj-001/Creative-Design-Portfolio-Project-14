@@ -1,0 +1,145 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Kanit', sans-serif;
+    background-image: url(./Assets/Model.png);
+    background-repeat: no-repeat;
+    background-size: 31%;
+}
+
+body img {
+    width: 35%;
+    height: 200%;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuItems {
+    margin-right: 3em;
+    color: #474343;
+    text-decoration: none;
+}
+
+nav img {
+    width: 5em;
+    padding: 3em;
+    cursor: pointer;
+}
+
+hr {
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 8.5%;
+    color: #474343;
+}
+
+
+
+h1 {
+    position: absolute;
+    left: 6em;
+    bottom: 4em;
+    font-size: 5em;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+span {
+    color: #474343;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-weight: 300;
+    position: absolute;
+    left: 41em;
+    bottom: 16.7em;
+}
+
+.remove {
+    color: white;
+    text-shadow: -0.1em 0.1em 0 #fff,
+                  0.1em 0.1em 0 #fff,
+                  0.1em -0.1em 0 #fff,
+                 -0.1em -0.1em 0 #fff;
+
+}
+
+.vl {
+    border-left: 0.1em solid #474343;
+    height: 11em;
+    position: absolute;
+    left: 28em;
+    bottom: 0em;
+  }
+
+ ul {
+    position: absolute;
+    left: 26.5em;
+    bottom: 0.5em;
+ }
+
+ li {
+    padding: 0.3em 0em;
+ }
+
+.socials img {
+    width: 2em;
+    padding: 1em;
+    
+}
+
+h2 {
+    font-size: 3em;
+    position: absolute;
+    left: 15em;
+    bottom: 4.2em;
+}
+
+p {
+    position: absolute;
+    left: 45em;
+    bottom: 12em;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 93%;
+    cursor: pointer;
+}
+
+.secondModel {
+    position: relative;
+    top: 21em;
+    left: 45em;
+}
+
+button {
+    position: absolute;
+    left: 82.5em;
+    bottom: 22em;
+    padding: 0.8em 3em;
+    color: #ffffff;
+    background: #474343;
+    border: transparent;
+    cursor: pointer;
+}
+
+.downArrow h3 {
+    position: absolute;
+    left: 69.1em;
+    bottom: 8.5em;
+}
